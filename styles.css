@@ -1,0 +1,34 @@
+:root {
+    --background: #fbf6f7;
+    --primary: #bb5670;
+    --secondary: #d998a9;
+}
+
+body {
+    text-align: center;
+    background-color: var(--background);
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    border: solid 8px var(--secondary);
+}
+
+.grid-div {
+    width: calc(100% / 16); 
+    height: calc(100% / 16); 
+    box-sizing: border-box; 
+}
+
+button {
+    margin: 1em;
+    background-color: var(--primary);
+    width: 10em;
+    height: 2.5em;
+    border-radius: 5px;
+    border: none;
+}
